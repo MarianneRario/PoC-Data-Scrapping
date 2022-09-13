@@ -1,0 +1,148 @@
+[35m[Appium][39m Welcome to Appium v1.22.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 8210
+[35m[Appium][39m   relaxedSecurityEnabled: true
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:8210
+[35m[Appium][39m Welcome to Appium v1.22.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 8210
+[35m[Appium][39m   relaxedSecurityEnabled: true
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE: address already in use 0.0.0.0:8210
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at doListen (node:net:1609:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[35m[Appium][39m Welcome to Appium v1.22.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 8210
+[35m[Appium][39m   relaxedSecurityEnabled: true
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE: address already in use 0.0.0.0:8210
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at doListen (node:net:1609:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[debug] [35m[HTTP][39m Request idempotency key: c4b21d81-b4fb-4e76-8380-b00ca633b955
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android","appium:deviceName":"48286ac8","appium:udid":"48286ac8","appium:automationName":"UiAutomator2","appium:newCommandTimeout":100000,"appium:unicodeKeyboard":true}}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android","appium:deviceName":"48286ac8","appium:udid":"48286ac8","appium:automationName":"UiAutomator2","appium:newCommandTimeout":100000,"appium:unicodeKeyboard":true}}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1661970536508 (02:28:56 GMT+0800 (Philippine Standard Time))
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[Appium][39m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "48286ac8",
+[debug] [35m[BaseDriver][39m     "appium:udid": "48286ac8",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "UiAutomator2",
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 100000,
+[debug] [35m[BaseDriver][39m     "appium:unicodeKeyboard": true
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: 5bc508bf-8330-48af-994a-f8f282e068f0
+[35m[UiAutomator2][39m Neither 'app' nor 'appPackage' was set. Starting UiAutomator2 without the target application
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1661970536804 (02:28:56 GMT+0800 (Philippine Standard Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+[debug] [35m[W3C][39m     at requireSdkRoot (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/node_modules/appium-adb/lib/helpers.js:36:11)
+[debug] [35m[W3C][39m     at Function.createADB (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/node_modules/appium-adb/lib/adb.js:57:23)
+[debug] [35m[W3C][39m     at Object.createBaseADB (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:129:20)
+[debug] [35m[W3C][39m     at Object.getDeviceInfoFromCaps (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:214:29)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.startUiAutomator2Session (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:338:40)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.createSession (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:229:18)
+[debug] [35m[W3C][39m     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [35m[W3C][39m     at AppiumDriver.createSession (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/lib/appium.js:387:35)
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m413 ms - 879[39m
+[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Welcome to Appium v1.22.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 8210
+[35m[Appium][39m   relaxedSecurityEnabled: true
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE: address already in use 0.0.0.0:8210
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at doListen (node:net:1609:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[debug] [35m[HTTP][39m Request idempotency key: 23441716-3558-4a94-a8b5-df3a7c397300
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android","appium:deviceName":"48286ac8","appium:automationName":"UiAutomator2","appium:newCommandTimeout":100000,"appium:unicodeKeyboard":true}}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android","appium:deviceName":"48286ac8","appium:automationName":"UiAutomator2","appium:newCommandTimeout":100000,"appium:unicodeKeyboard":true}}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1661970624055 (02:30:24 GMT+0800 (Philippine Standard Time))
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[Appium][39m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "48286ac8",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "UiAutomator2",
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 100000,
+[debug] [35m[BaseDriver][39m     "appium:unicodeKeyboard": true
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: 43de041d-741f-4563-844d-657c9894a659
+[35m[UiAutomator2][39m Neither 'app' nor 'appPackage' was set. Starting UiAutomator2 without the target application
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1661970624069 (02:30:24 GMT+0800 (Philippine Standard Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+[debug] [35m[W3C][39m     at requireSdkRoot (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/node_modules/appium-adb/lib/helpers.js:36:11)
+[debug] [35m[W3C][39m     at Function.createADB (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/node_modules/appium-adb/lib/adb.js:57:23)
+[debug] [35m[W3C][39m     at Object.createBaseADB (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:129:20)
+[debug] [35m[W3C][39m     at Object.getDeviceInfoFromCaps (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:214:29)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.startUiAutomator2Session (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:338:40)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.createSession (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:229:18)
+[debug] [35m[W3C][39m     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [35m[W3C][39m     at AppiumDriver.createSession (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/lib/appium.js:387:35)
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m17 ms - 879[39m
+[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Welcome to Appium v1.22.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 8210
+[35m[Appium][39m   relaxedSecurityEnabled: true
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE: address already in use 0.0.0.0:8210
+    at Server.setupListenHandle [as _listen2] (node:net:1422:16)
+    at listenInCluster (node:net:1470:12)
+    at doListen (node:net:1609:7)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[debug] [35m[HTTP][39m Request idempotency key: 7027cf1f-a55c-4363-b738-6f4cb61bb830
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android","appium:deviceName":"48286ac8","appium:automationName":"UiAutomator2","appium:newCommandTimeout":100000,"appium:unicodeKeyboard":true}}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android","appium:deviceName":"48286ac8","appium:automationName":"UiAutomator2","appium:newCommandTimeout":100000,"appium:unicodeKeyboard":true}}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1661970690576 (02:31:30 GMT+0800 (Philippine Standard Time))
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[Appium][39m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "48286ac8",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "UiAutomator2",
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 100000,
+[debug] [35m[BaseDriver][39m     "appium:unicodeKeyboard": true
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: 961c6115-a887-4f30-9f1a-87a50f64aee5
+[35m[UiAutomator2][39m Neither 'app' nor 'appPackage' was set. Starting UiAutomator2 without the target application
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1661970690584 (02:31:30 GMT+0800 (Philippine Standard Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+[debug] [35m[W3C][39m     at requireSdkRoot (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/node_modules/appium-adb/lib/helpers.js:36:11)
+[debug] [35m[W3C][39m     at Function.createADB (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/node_modules/appium-adb/lib/adb.js:57:23)
+[debug] [35m[W3C][39m     at Object.createBaseADB (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:129:20)
+[debug] [35m[W3C][39m     at Object.getDeviceInfoFromCaps (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:214:29)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.startUiAutomator2Session (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:338:40)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.createSession (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:229:18)
+[debug] [35m[W3C][39m     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [35m[W3C][39m     at AppiumDriver.createSession (/Users/mapletree/.nvm/versions/node/v18.4.0/lib/node_modules/appium/lib/appium.js:387:35)
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m11 ms - 879[39m
+[35m[HTTP][39m [90m[39m
